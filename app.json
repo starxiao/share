@@ -1,0 +1,28 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/share/share"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Share",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "index",
+      "iconPath": "image/icon_API.png",
+      "selectedIconPath": "image/icon_API_HL.png"
+    },
+    {
+      "pagePath":"pages/share/share",
+      "text": "share",
+      "iconPath":"image/icon_API.png",
+      "selectedIconPath":"image/icon_API_HL.png"
+    }
+    ]
+  }
+}
