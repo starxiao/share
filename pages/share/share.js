@@ -3,7 +3,27 @@ Page({
   data:{
     lng:113.9242519,
     lat:22.5244309,
-    markers:[],
+    markers:[
+      //   {
+      //   latitude:22.5244309,
+      //   longitude:113.9242519,
+      //   name:"xxx",
+      //   desc:"深圳大学"
+      // },
+      {
+        latitude:22.5344256,
+        longitude:113.9342565,
+        name:"肖兴星",
+        desc:"深圳大学"
+      }
+    ],
+    covers:[
+      {
+        latitude:22.5244309,
+        longitude:113.9242519,
+        iconPath:"../../image/pause.png"
+      }
+    ]
   },
   onLoad:function(options){
       console.log('onload');
@@ -41,9 +61,8 @@ Page({
 
   ajax:function(){
     wx.request({
-      url: 'http://webapi.amap.com/maps?v=1.3&key=dd1d18ab35d1c5d5e9f2df8bd4810358"',
-      method: 'GET', // OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT
-      // header: {}, // 设置请求的 header
+      url: 'https://rap.taobao.org/mockjs/6844/getRequest',
+      method: 'GET', 
       success: function(res){
         console.log(res);
       },
