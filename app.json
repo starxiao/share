@@ -2,7 +2,10 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/share/share"
+    "pages/share/share",
+    "pages/user/user",
+    "pages/book/book",
+    "pages/image/image"
   ],
   "window":{
     "backgroundTextStyle":"light",

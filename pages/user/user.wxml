@@ -1,0 +1,20 @@
+<view class="page user-page">
+    <view class="page-hd">
+        <image class="user-image" src="{{userInfo.avatarUrl}}"></image>
+        <text class="user-name">{{userInfo.nickName}}</text>
+    </view>
+    <view class="page-bd">
+        <view class="flex-wrap1">
+            <navigator class="flex-itme book" url="../../pages/book/book" animation="{{animationData}}">book</navigator>
+            <navigator class="flex-item image" url="../../pages/image/image" animation="{{animationData}}">image</navigator>
+        </view>
+        <view class="flex-wrap2">
+            <navigator class="flex-item image" url="../../pages/image/image" animation="{{animationData}}">image</navigator>
+        </view>
+        <view class="flex-wrap3">
+            <navigator class="flex-itme book" url="../../pages/book/book" animation="{{animationData}}">book</navigator>
+            <navigator class="flex-item image" url="../../pages/image/image" animation="{{animationData}}">image</navigator>
+        </view>
+        
+    </view>
+</view>

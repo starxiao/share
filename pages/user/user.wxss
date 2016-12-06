@@ -1,0 +1,39 @@
+.user-page .page-hd{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.user-page .page-bd{
+    margin-top: 100px;
+}
+.user-page .page-hd .user-image{
+    width: 128rpx;
+    height: 128rpx;
+    border-radius: 50%;
+}
+.user-page .page-bd .flex-wrap1{
+    display: flex;
+    justify-content: space-around;
+}
+.user-page .page-bd .flex-wrap2{
+    display: flex;
+    justify-content: center;
+}
+.user-page .page-bd .flex-wrap3{
+    display: flex;
+    justify-content: space-around;
+}
+.user-page .page-bd navigator{
+    width: 128rpx;
+    height: 128rpx;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 128rpx;
+}
+.user-page .page-bd .book{
+    background-color: red;
+}
+.user-page .page-bd .image{
+    background-color: green;
+}

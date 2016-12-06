@@ -34,7 +34,7 @@ Page({
   },
   onShow:function(){
     console.log('onshow');
-    this.ajax();
+   // this.ajax();
   },
   onHide:function(){
     console.log('onhide');
@@ -73,5 +73,8 @@ Page({
         // complete
       }
     })
+  },
+  click:function(e){
+    console.log(e);
   }
 })

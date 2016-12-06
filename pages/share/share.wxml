@@ -2,7 +2,8 @@
 
 <view>
     <map class="map"  latitude="{{lat}}" longitude="{{lng}}"
-    scale="16" markers="{{markers}}" covers="{{covers}}"></map>
+    scale="16" markers="{{markers}}" covers="{{covers}}"
+    bindtap="click"></map>
 </view>
 
 
